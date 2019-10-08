@@ -1,0 +1,28 @@
+.islandContent{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+    .tr{
+     display:flex;
+      flex-direction: row;
+      align-content: center;
+      align-items: center;
+    }
+  .salary{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .showMoreBlock{
+    display:none;
+  }
+  .showMore{
+    display:block;
+    position: absolute;
+  }
+}
